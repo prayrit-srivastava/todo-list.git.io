@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        todo list
+    </title>
+    <link rel = "stylesheet" href = "index.css">
+    <script type="text/javascript" src="index.js">
+     </script>
+</head>
+<body>
+
+    <div id="content">    
+<form onsubmit="solve()">
+    <input type="text" id ="inp" style="width: 300px;height: 20px;"></input>
+    <input type="submit" value ="+" style="width: 30px;height: 30px;">
+    <input type="submit" value ="clearall" style="width: 80px;height: 30px;" onclick="clearAll()">
+
+</div>
+</form>
+<h1 style="position: absolute;top:30%;left: 45%;">To Do List</h1>
+<div id  = "todo" style="position: absolute;top:45%;left: 45%;display: block;">
+    <ul id="list" >
+
+    </ul>
+</div>
+</body>
+</html>
